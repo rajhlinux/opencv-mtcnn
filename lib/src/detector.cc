@@ -1,4 +1,6 @@
 #include "mtcnn/detector.h"
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui_c.h>
 
 MTCNNDetector::MTCNNDetector(const ProposalNetwork::Config &pConfig,
                              const RefineNetwork::Config &rConfig,
